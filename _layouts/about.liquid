@@ -18,7 +18,7 @@ layout: default
 
   <div class="row align-items-center">
       {% if page.profile %}
-          <div class="col-md-4 col-xs-12 order-md-last profile">
+          <div class="col-sm-4 col-xs-12 order-sm-last profile">
             {% if page.profile.image %}
               {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
               {% if page.profile.image_circular %}
@@ -39,7 +39,7 @@ layout: default
             {% endif %}
           </div>
         {% endif %}
-      <div class="col-md-8">{{ content }}</div>
+      <div class="col-sm-8">{{ content }}</div>
     </div>
 
     <!-- Selected papers -->
@@ -52,7 +52,7 @@ layout: default
 
     <!-- Social -->
     {% if page.social %}
-      <div class="social-about">
+      <div class="social">
         <div class="contact-icons">{% include social.liquid %}</div>
 
         <div class="contact-note">{{ site.contact_note }}</div>
