@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://norianna.github.io/sitemap.xml
+Sitemap: https://norians.github.io/sitemap.xml
