@@ -2,12 +2,12 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Applied Mathematics and Software Engineer
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: >
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
@@ -15,8 +15,12 @@ social: true # includes social icons at the bottom of the page
 
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I’m a software engineer with experience in backend development, now expanding my work into applied mathematics. My work sits at the intersection of both disciplines: engineering taught me how to build; mathematics is teaching me how to think.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+What defines me is how I approach problems: understanding their shape at first, and then solving them precisely. I don’t jump to solutions; I map the problem first.
+I learn fast, but with depth; my work is calm, analytical, and grounded.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Right now, this shows up in the projects I choose: modelling-driven tools, numerical methods, simulations, and backend systems shaped by mathematical reasoning.
+My goal is simple: build things that make sense, from the idea to the implementation.
+
+
