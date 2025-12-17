@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <b style="font-size: 18pt;">Applied Mathematics and Software Engineer</b>
+subtitle: Applied Mathematics and Software Engineer
 
 profile:
   align: right
