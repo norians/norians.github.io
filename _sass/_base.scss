@@ -416,13 +416,13 @@ ul.task-list input[type="checkbox"] {
 // Social (bottom)
 
 .social {
-  display: flex;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
-  gap: 16px;
+    display: flex;
+    justify-content: center;
 
   .contact-icons {
+    display: flex;
+    align-items: center;
+    gap: 16px;
     font-size: 4rem;
 
     a {
