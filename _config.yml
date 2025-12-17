@@ -87,8 +87,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 collections:
-  books:
-    output: true
+  # books:
+  #   output: true
   projects:
     output: true
 
