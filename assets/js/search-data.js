@@ -94,7 +94,7 @@ ninja.data = [{
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/noriannamedina", "_blank");
+          window.open("https://www.linkedin.com/in/noriannajimenez", "_blank");
         },
       },{
       id: 'light-theme',
