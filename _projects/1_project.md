@@ -5,7 +5,9 @@ description: Medical question-answering system based on embedding similarity and
 img: assets/img/proj-medical.png
 importance: 1
 category: software
-related_publications: true
+related_publications: false
+github: https://github.com/norians/Medical-Semantic-QA-System
+tags: SentenceEmbeddings
 ---
 
 Medical Semantic QA System is an applied NLP project focused on semantic retrieval.
