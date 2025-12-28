@@ -28,9 +28,9 @@ ninja.data = [{
           description: "Medical question-answering system based on embedding similarity and curated clinical data.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project.html";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+            },},{id: "projects-optimal-route-api",
+          title: 'Optimal Route API',
+          description: "REST API using .NET 6 (C#) that calculates the optimal route between two cities.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project.html";
             },},{id: "projects-project-3-with-very-long-name",
@@ -38,11 +38,6 @@ ninja.data = [{
           description: "a project that redirects to another website",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project.html";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project.html";
             },},{
         id: 'social-cv',
         title: 'CV',
