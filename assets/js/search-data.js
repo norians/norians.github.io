@@ -33,11 +33,6 @@ ninja.data = [{
           description: "REST API using .NET 6 (C#) that calculates the optimal route between two cities.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project.html";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project.html";
             },},{
         id: 'social-cv',
         title: 'CV',
