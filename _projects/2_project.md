@@ -13,7 +13,7 @@ The solution explores all valid paths using an iterative depth-first search (DFS
 
 The focus of the project is on algorithmic clarity, backend design, and correctness, rather than heavy optimization, making the logic easy to reason about and extend.
 
-Highlights:
+**Highlights:**
 - Graph traversal with iterative DFS
 - Route evaluation based on accumulated weights
 - Clean service-oriented backend design
@@ -21,47 +21,52 @@ Highlights:
 - .NET 6 REST API
 - Deterministic and testable logic
 
-Request:
-{% raw %}
+**Request:**
+<details>
+    {% raw %}
 
-```json
-{
-  "cities": ["A", "B", "C", "D"],
-  "roads": [
-    {"from": "A", "to": "B", "time": 10},
-    {"from": "B", "to": "C", "time": 15},
-    {"from": "A", "to": "C", "time": 30},
-    {"from": "C", "to": "D", "time": 5},
-    {"from": "B", "to": "D", "time": 25}
-  ],
-  "origin": "A",
-  "destination": "D"
-}
-```
+    ```json
+    {
+    "cities": ["A", "B", "C", "D"],
+    "roads": [
+        {"from": "A", "to": "B", "time": 10},
+        {"from": "B", "to": "C", "time": 15},
+        {"from": "A", "to": "C", "time": 30},
+        {"from": "C", "to": "D", "time": 5},
+        {"from": "B", "to": "D", "time": 25}
+    ],
+    "origin": "A",
+    "destination": "D"
+    }
+    ```
 
-{% endraw %}
+    {% endraw %}
+</details>
 
+**Response:**
+<details>
+    {% raw %}
 
+    ```json
+    {
+    "route": ["A", "B", "C", "D"],
+    "totalTime": 30
+    }
+    ```
+
+    {% endraw %}
+</details>
+
+The process can be seen represented in the following diagram:
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/proj-route-diagram.png" title="diagram" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Graph-based route evaluation showing alternative paths and the selected optimal route.
+    Graph-based representation of the search space. Nodes represent the state (Current City) and edges represent the cost function (Travel Time) optimized via exhaustive path evaluation.
 </div>
 
-Response:
-{% raw %}
-
-```json
-{
-  "route": ["A", "B", "C", "D"],
-  "totalTime": 30
-}
-```
-
-{% endraw %}
 
 
 
