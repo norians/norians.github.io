@@ -33,9 +33,9 @@ ninja.data = [{
           description: "REST API using .NET 6 (C#) that calculates the optimal route between two cities.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project.html";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+            },},{id: "projects-concurrent-producer-consumer",
+          title: 'Concurrent Producer-Consumer',
+          description: "Java concurrency system implementing the producer-consumer pattern with synchronized coodination and safe shared-state access.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project.html";
             },},{
