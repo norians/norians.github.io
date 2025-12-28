@@ -4,7 +4,7 @@ title: Medical Semantic QA System
 description: Medical question-answering system based on embedding similarity and curated clinical data.
 img: assets/img/proj-medical.png
 importance: 1
-category: work
+category: software
 related_publications: true
 ---
 
