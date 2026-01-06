@@ -8,9 +8,9 @@ category: software
 github: https://github.com/norians/concurrent-producer-consumer
 ---
 
-<div class="row">
-    <a href="https://github.com/norians/concurrent-producer-consumer" target="_blank">https://github.com/norians/concurrent-producer-consumer</a>
-</div>
+
+<a href="https://github.com/norians/concurrent-producer-consumer" target="_blank" class="mb-3">https://github.com/norians/concurrent-producer-consumer</a>
+
 
 This project implements the classic producer–consumer concurrency pattern using a First-In, First-Out (FIFO) buffer.
 
